@@ -21,3 +21,7 @@ id_rsa
 id_ed25519
 
 .DS_Store
+
+# selvtest script
+endringsordrer.sh
+sjekk-oblig2.sh
