@@ -63,7 +63,7 @@ variable "vm_size" {
 variable "ssh_public_key" {
   description = "Offentlig SSH-nokkel for VM-tjenester."
   type        = string
-  default     = ""
+  default     = "ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIGMQ32gu8mGVI86gkUex5JsBeg7WC58bsUOVuxmeHDJW oblig2-ingen-privat-nokkel"
 }
 
 variable "webapp_sku" {
