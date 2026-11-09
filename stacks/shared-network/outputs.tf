@@ -1,15 +1,19 @@
 output "resource_group_name" {
-  value = azurerm_resource_group.this.name
+  description = "Navnet på den delte ressursgruppen."
+  value       = azurerm_resource_group.this.name
 }
 
 output "location" {
-  value = azurerm_resource_group.this.location
+  description = "Azure-regionen til ressursgruppen."
+  value       = azurerm_resource_group.this.location
 }
 
 output "vnet_name" {
-  value = module.vnet.name
+  description = "Navnet på det delte virtuelle nettverket."
+  value       = module.vnet.name
 }
 
 output "vnet_id" {
-  value = module.vnet.id
+  description = "Azure-ID-en til det delte virtuelle nettverket."
+  value       = module.vnet.id
 }

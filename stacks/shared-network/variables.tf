@@ -1,15 +1,19 @@
 variable "kortnavn" {
-  type = string
+  description = "Kortnavn brukt i Azure-ressursnavn."
+  type        = string
 }
 
 variable "location" {
-  type = string
+  description = "Azure-regionen ressursene opprettes i."
+  type        = string
 }
 
 variable "miljo" {
-  type = string
+  description = "Miljøet, for eksempel dev eller prod."
+  type        = string
 }
 
 variable "address_space" {
-  type = list(string)
+  description = "Adressene som VNet-et skal bruke."
+  type        = list(string)
 }
