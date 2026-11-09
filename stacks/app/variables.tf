@@ -1,1 +1,0 @@
-# Ingen variabler kreves under state-overforingen.

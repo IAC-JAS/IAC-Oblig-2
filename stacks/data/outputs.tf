@@ -1,1 +1,0 @@
-# Ingen outputs etter at dataressursene er flyttet.
