@@ -15,3 +15,12 @@ removed {
     destroy = false
   }
 }
+
+# Flytt begge tjenestenes subnett, NSG-er, regler og koblinger.
+removed {
+  from = module.subnet
+
+  lifecycle {
+    destroy = false
+  }
+}
