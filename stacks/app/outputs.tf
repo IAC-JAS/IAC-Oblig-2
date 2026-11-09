@@ -1,1 +1,0 @@
-# Ingen outputs etter at appressursene er flyttet.
