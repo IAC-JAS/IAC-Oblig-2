@@ -24,4 +24,3 @@ prod	/resourcegroups/rg-jas-oblig2-prod/providers/microsoft.storage/storageaccou
 prod	/resourcegroups/rg-jas-oblig2-prod/providers/microsoft.storage/storageaccounts/stjasordreprod	Microsoft.Storage/storageAccounts	2026-11-09T13:40:51.3056918Z
 prod	/resourcegroups/rg-jas-oblig2-prod/providers/microsoft.web/serverfarms/asp-meny	Microsoft.Web/serverFarms	2026-11-09T13:43:48.7955509Z
 prod	/resourcegroups/rg-jas-oblig2-prod/providers/microsoft.web/sites/app-jas-meny-prod	Microsoft.Web/sites	2026-11-09T13:44:18.8348808Z
-t
