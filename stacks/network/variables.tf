@@ -22,18 +22,3 @@ variable "miljo" {
     error_message = "miljo må være dev eller prod."
   }
 }
-
-
-variable "tjenester" {
-  description = "Tjenestene som skal ha et subnett: adresseområde og kjøremiljø. runtime = \"webapp\" gir et subnett delegert til App Service."
-  type = map(object({
-    prefix  = string
-    runtime = string
-  }))
-}
-
-variable "allow_http_from" {
-  description = "Hvem som får nå tjenestene på port 80."
-  type        = string
-  default     = "Internet"
-}

@@ -1,1 +1,1 @@
-tjenester = ["ordre", "meny"]
+# Beholdes midlertidig slik at removed-blokkene kjøres.
